@@ -17,7 +17,7 @@ class ClientThread(Thread):
 
     def run(self):
         data = b""
-        payload_size = struct.calcsize(">L")
+        payload_size = struct.calcsize(">Q")
         print("payload_size: {}".format(payload_size))
         while True:
             while len(data) < payload_size:
@@ -27,7 +27,7 @@ class ClientThread(Thread):
             print("Done Recv: {}".format(len(data)))
             packed_msg_size = data[:payload_size]
             data = data[payload_size:]
-            msg_size = struct.unpack(">L", packed_msg_size)[0]
+            msg_size = struct.unpack(">Q", packed_msg_size)[0]
             print("msg_size: {}".format(msg_size))
             while len(data) < msg_size:
                 data += conn.recv(8192)
@@ -54,7 +54,7 @@ threads = []
 
 while True:
 
-    s.listen(2)
+    s.listen(1)
 
     (conn, (ip, port)) = s.accept()
     print("Connection From: " + str(ip))
