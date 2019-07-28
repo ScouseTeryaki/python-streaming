@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['tcpServer.py'],
-             pathex=['C:\\Users\\Joseph\\PycharmProjects\\RandomProjects\\networking ideas\\webcam'],
+             pathex=['C:\\Users\\Joseph\\Documents\\python-streaming'],
              binaries=[],
              datas=[],
              hiddenimports=[],

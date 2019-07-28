@@ -1,5 +1,4 @@
-('C:\\Users\\Joseph\\PycharmProjects\\RandomProjects\\networking '
- 'ideas\\webcam\\build\\tcpServer\\tcpServer.exe',
+('C:\\Users\\Joseph\\Documents\\python-streaming\\build\\tcpServer\\tcpServer.exe',
  True,
  False,
  True,
@@ -11,8 +10,7 @@
  True,
  'tcpServer.pkg',
  [('PYZ-00.pyz',
-   'C:\\Users\\Joseph\\PycharmProjects\\RandomProjects\\networking '
-   'ideas\\webcam\\build\\tcpServer\\PYZ-00.pyz',
+   'C:\\Users\\Joseph\\Documents\\python-streaming\\build\\tcpServer\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
    'c:\\users\\joseph\\anaconda3\\envs\\python\\lib\\struct.pyo',
@@ -39,17 +37,15 @@
    'c:\\users\\joseph\\anaconda3\\envs\\python\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_multiprocessing.py',
    'PYSOURCE'),
   ('tcpServer',
-   'C:\\Users\\Joseph\\PycharmProjects\\RandomProjects\\networking '
-   'ideas\\webcam\\tcpServer.py',
+   'C:\\Users\\Joseph\\Documents\\python-streaming\\tcpServer.py',
    'PYSOURCE'),
   ('tcpServer.exe.manifest',
-   'C:\\Users\\Joseph\\PycharmProjects\\RandomProjects\\networking '
-   'ideas\\webcam\\build\\tcpServer\\tcpServer.exe.manifest',
+   'C:\\Users\\Joseph\\Documents\\python-streaming\\build\\tcpServer\\tcpServer.exe.manifest',
    'BINARY')],
  [],
  False,
  False,
- 1564239445,
+ 1564346586,
  [('run.exe',
    'c:\\users\\joseph\\anaconda3\\envs\\python\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
    'EXECUTABLE')])
